@@ -25,6 +25,7 @@ Download
 * Full code is also available from a [zip file](http://www.bitbucket.org/Bounga/acts_as_nice_url/get/tip.zip)
 
 When the sources are retrieved you can build a compressed version of the lib using :
+
     $ rake
     
 It'll build a YUI compressed version of the lib in 'dist' directory. You'll also got HTML code documentation in 'doc' directory.
@@ -32,7 +33,8 @@ It'll build a YUI compressed version of the lib in 'dist' directory. You'll also
 Usage Example
 -------------
 
-Drop **mootools** and *mousetracker.js* in your javascripts directory and include it in your XHTML layout : 
+Drop **mootools** and *mousetracker.js* in your javascripts directory and include it in your XHTML layout :
+
     <script src="javascripts/mootools.js" type="text/javascript" charset="utf-8"></script>
     <script src="javascripts/mousetracker.js" type="text/javascript" charset="utf-8"></script>
   
