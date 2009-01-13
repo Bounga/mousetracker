@@ -25,36 +25,43 @@ Download
 * Full code is also available from a [zip file](http://www.bitbucket.org/Bounga/acts_as_nice_url/get/tip.zip)
 
 When the sources are retrieved you can build a compressed version of the lib using :
-  $ rake build
+    $ rake
     
-It'll build a YUI compressed version of the lib in 'dist' directory.
+It'll build a YUI compressed version of the lib in 'dist' directory. You'll also got HTML code documentation in 'doc' directory.
 
 Usage Example
 -------------
 
 Drop **mootools** and *mousetracker.js* in your javascripts directory and include it in your XHTML layout : 
-  <script src="javascripts/mootools.js" type="text/javascript" charset="utf-8"></script>
-  <script src="javascripts/mousetracker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/mootools.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/mousetracker.js" type="text/javascript" charset="utf-8"></script>
   
 then you can create new MouseTracker instances :
 
-  new MouseTracker({delay: 400, color: '#33FF00'});
-  new MouseTracker({delay: 300, color: '#FF3300', 'offset': {x: 30, y: -20}, 'size': 10});
-  new MouseTracker({delay: 1000, image: 'cat.gif'});
+    new Bounga.MouseTracker({delay: 400, color: '#33FF00'});
+    new Bounga.MouseTracker({delay: 300, color: '#FF3300', 'offset': {x: 30, y: -20}, 'size': 10});
+    new Bounga.MouseTracker({delay: 1000, image: 'cat.gif'});
   
-by default, MouseTracker create a square div but you can use an image
+by default, MouseTracker create a square div but you can use an image.
+
+Take a look at 'example' directory to see examples.
   
 Options
 -------
 
 Available options to tune your MouseTracker are:
 
-  delay: 200                  // Delay between mouse movement stop and start of tracker movements
-  offset: { x : -20, y : 20 } // Offset to apply between mouse and tracker
-  color: '#666'               // Color to fill the div with
-  size: 20                    // Size (width and height) of the div
-  zindex: 20                  // z-index of the div
-  image: null                 // Use an image rather than a div for the tracker
+    delay: 200                  // Delay between mouse movement stop and start of tracker movements
+    offset: { x : -20, y : 20 } // Offset to apply between mouse and tracker
+    color: '#666'               // Color to fill the div with
+    size: 20                    // Size (width and height) of the div
+    zindex: 20                  // z-index of the div
+    image: null                 // Use an image rather than a div for the tracker
+    id:	null	                // DOM id for the tracker
+    class: null	                // CSS class for the tracker
+    top: -1000	                // Initial 'top' value
+    left: -1000	                // Initial left value
+    position: 'absolute'	    // Positioning method (absolute or relative). Should be left as 'absolute' unless you know what you're doing
 
 Other
 -----
