@@ -1,0 +1,10 @@
+div.container {
+  height:40em;
+  width:60%;
+  margin:auto;
+  border: 2px solid #000;
+  background-color: silver;
+  padding: 2em;
+}
+h1 { text-align:center; color:#aec;}
+p { font-size:1.2em;}

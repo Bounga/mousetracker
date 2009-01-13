@@ -1,0 +1,67 @@
+-*-markdown-*-
+
+MouseTracker
+============
+
+MouseTracker is a Javascript script to create mouse trackers. For example, it can create a div or an image that will follow your exact mouse moves. It **requires MooTools >= 1.2**.
+
+Features
+--------
+
+MouseTracker features are:
+
+* Tracks mouse exact moves
+* Creates multiple instances
+* Uses customizable div or an image
+* Works on Safari, Firefox, IE 6/7, Chrome and Opera
+* Documentation generated with PDoc
+* Packed version is only 6Ko
+* Open source, full code is available on BitBucket
+
+Download
+--------
+
+* Full code is available from [BitBucket](http://www.bitbucket.org/Bounga/mouse-tracker). If you want to fix bugs or add features, it's the best way to start with
+* Full code is also available from a [zip file](http://www.bitbucket.org/Bounga/acts_as_nice_url/get/tip.zip)
+
+When the sources are retrieved you can build a compressed version of the lib using :
+  $ rake build
+    
+It'll build a YUI compressed version of the lib in 'dist' directory.
+
+Usage Example
+-------------
+
+Drop **mootools** and *mousetracker.js* in your javascripts directory and include it in your XHTML layout : 
+  <script src="javascripts/mootools.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/mousetracker.js" type="text/javascript" charset="utf-8"></script>
+  
+then you can create new MouseTracker instances :
+
+  new MouseTracker({delay: 400, color: '#33FF00'});
+  new MouseTracker({delay: 300, color: '#FF3300', 'offset': {x: 30, y: -20}, 'size': 10});
+  new MouseTracker({delay: 1000, image: 'cat.gif'});
+  
+by default, MouseTracker create a square div but you can use an image
+  
+Options
+-------
+
+Available options to tune your MouseTracker are:
+
+  delay: 200                  // Delay between mouse movement stop and start of tracker movements
+  offset: { x : -20, y : 20 } // Offset to apply between mouse and tracker
+  color: '#666'               // Color to fill the div with
+  size: 20                    // Size (width and height) of the div
+  zindex: 20                  // z-index of the div
+  image: null                 // Use an image rather than a div for the tracker
+
+Other
+-----
+
+For more information see [Project homepage](http://www.bitbucket.org/Bounga/mouse_ghost/)
+
+Problems, comments, and suggestions are welcome on the [ticket system](http://www.bitbucket.org/Bounga/mouse_ghost/issues/new/)
+
+
+Copyright (c) 2009 Nicolas Cavigneaux, released under the MIT license
