@@ -15,14 +15,13 @@ MouseTracker features are:
 * Uses customizable div or an image
 * Works on Safari, Firefox, IE 6/7, Chrome and Opera
 * Documentation generated with PDoc
-* Packed version is only 6Ko
 * Open source, full code is available on BitBucket
 
 Download
 --------
 
-* Full code is available from [BitBucket](http://www.bitbucket.org/Bounga/mouse-tracker). If you want to fix bugs or add features, it's the best way to start with
-* Full code is also available from a [zip file](http://www.bitbucket.org/Bounga/acts_as_nice_url/get/tip.zip)
+* Full code is available from [BitBucket](http://www.bitbucket.org/Bounga/mousetracker). If you want to fix bugs or add features, it's the best way to start with
+* Full code is also available from a [zip file](http://www.bitbucket.org/Bounga/mousetracker/get/tip.zip)
 
 When the sources are retrieved you can build a compressed version of the lib using :
 
@@ -68,9 +67,9 @@ Available options to tune your MouseTracker are:
 Other
 -----
 
-For more information see [Project homepage](http://www.bitbucket.org/Bounga/mouse_ghost/)
+For more information see [Project homepage](http://www.bitbucket.org/Bounga/mousetracker/)
 
-Problems, comments, and suggestions are welcome on the [ticket system](http://www.bitbucket.org/Bounga/mouse_ghost/issues/new/)
+Problems, comments, and suggestions are welcome on the [ticket system](http://www.bitbucket.org/Bounga/mousetracker/issues/new/)
 
 
 Copyright (c) 2009 Nicolas Cavigneaux, released under the MIT license
