@@ -52,17 +52,17 @@ Options
 
 Available options to tune your MouseTracker are:
 
-    delay: 200                  // Delay between mouse movement stop and start of tracker movements
-    offset: { x : -20, y : 20 } // Offset to apply between mouse and tracker
-    color: '#666'               // Color to fill the div with
-    size: 20                    // Size (width and height) of the div
-    zindex: 20                  // z-index of the div
-    image: null                 // Use an image rather than a div for the tracker
-    id:	null	                // DOM id for the tracker
-    class: null	                // CSS class for the tracker
-    top: -1000	                // Initial 'top' value
-    left: -1000	                // Initial left value
-    position: 'absolute'	    // Positioning method (absolute or relative). Should be left as 'absolute' unless you know what you're doing
+    'delay': 200                  // Delay between mouse movement stop and start of tracker movements
+    'offset': { x : -20, y : 20 } // Offset to apply between mouse and tracker
+    'color': '#666'               // Color to fill the div with
+    'size': 20                    // Size (width and height) of the div
+    'z-index': 20                  // z-index of the div
+    'image': null                 // Use an image rather than a div for the tracker
+    'id':	null	                // DOM id for the tracker
+    'class': null	                // CSS class for the tracker
+    'top': -1000	                // Initial 'top' value
+    'left': -1000	                // Initial left value
+    'position': 'absolute'	    // Positioning method (absolute or relative). Should be left as 'absolute' unless you know what you're doing
 
 Other
 -----
