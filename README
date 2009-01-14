@@ -32,7 +32,7 @@ It'll build a YUI compressed version of the lib in 'dist' directory. You'll also
 Usage Example
 -------------
 
-Drop **mootools** and **mousetracker.js** in your javascripts directory and include it in your XHTML layout :
+Drop **mootools.js** and **mousetracker.js** in your javascripts directory and include it in your XHTML layout :
 
     <script src="javascripts/mootools.js" type="text/javascript" charset="utf-8"></script>
     <script src="javascripts/mousetracker.js" type="text/javascript" charset="utf-8"></script>
