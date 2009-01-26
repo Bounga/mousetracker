@@ -94,7 +94,7 @@ if (typeof Bounga == 'undefined') {
  * Usage examples :
  *
  * <pre>
- * new MouseTracker();
+ * new Bounga.MouseTracker();
  * </pre>
  *
  * If you want to change default settings all you need to do is pass an ‘options’ object:
